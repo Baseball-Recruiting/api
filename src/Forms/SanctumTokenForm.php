@@ -1,12 +1,12 @@
 <?php
 
-namespace Botble\Api\Forms;
+namespace RecruitMe\Api\Forms;
 
-use Botble\Api\Http\Requests\StoreSanctumTokenRequest;
-use Botble\Api\Models\PersonalAccessToken;
-use Botble\Base\Forms\FieldOptions\NameFieldOption;
-use Botble\Base\Forms\Fields\TextField;
-use Botble\Base\Forms\FormAbstract;
+use RecruitMe\Api\Http\Requests\StoreSanctumTokenRequest;
+use RecruitMe\Api\Models\PersonalAccessToken;
+use RecruitMe\Base\Forms\FieldOptions\NameFieldOption;
+use RecruitMe\Base\Forms\Fields\TextField;
+use RecruitMe\Base\Forms\FormAbstract;
 
 class SanctumTokenForm extends FormAbstract
 {

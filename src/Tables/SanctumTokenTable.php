@@ -1,17 +1,17 @@
 <?php
 
-namespace Botble\Api\Tables;
+namespace RecruitMe\Api\Tables;
 
-use Botble\Api\Models\PersonalAccessToken;
-use Botble\Table\Abstracts\TableAbstract;
-use Botble\Table\Actions\DeleteAction;
-use Botble\Table\BulkActions\DeleteBulkAction;
-use Botble\Table\Columns\Column;
-use Botble\Table\Columns\CreatedAtColumn;
-use Botble\Table\Columns\DateTimeColumn;
-use Botble\Table\Columns\IdColumn;
-use Botble\Table\Columns\NameColumn;
-use Botble\Table\HeaderActions\CreateHeaderAction;
+use RecruitMe\Api\Models\PersonalAccessToken;
+use RecruitMe\Table\Abstracts\TableAbstract;
+use RecruitMe\Table\Actions\DeleteAction;
+use RecruitMe\Table\BulkActions\DeleteBulkAction;
+use RecruitMe\Table\Columns\Column;
+use RecruitMe\Table\Columns\CreatedAtColumn;
+use RecruitMe\Table\Columns\DateTimeColumn;
+use RecruitMe\Table\Columns\IdColumn;
+use RecruitMe\Table\Columns\NameColumn;
+use RecruitMe\Table\HeaderActions\CreateHeaderAction;
 use Illuminate\Database\Eloquent\Builder;
 
 class SanctumTokenTable extends TableAbstract

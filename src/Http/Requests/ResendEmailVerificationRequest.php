@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Api\Http\Requests;
+namespace RecruitMe\Api\Http\Requests;
 
-use Botble\Support\Http\Requests\Request;
+use RecruitMe\Support\Http\Requests\Request;
 
 class ResendEmailVerificationRequest extends Request
 {

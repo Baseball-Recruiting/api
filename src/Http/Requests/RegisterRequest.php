@@ -1,10 +1,10 @@
 <?php
 
-namespace Botble\Api\Http\Requests;
+namespace RecruitMe\Api\Http\Requests;
 
-use Botble\Api\Facades\ApiHelper;
-use Botble\Base\Facades\BaseHelper;
-use Botble\Support\Http\Requests\Request;
+use RecruitMe\Api\Facades\ApiHelper;
+use RecruitMe\Base\Facades\BaseHelper;
+use RecruitMe\Support\Http\Requests\Request;
 
 class RegisterRequest extends Request
 {

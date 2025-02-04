@@ -1,24 +1,23 @@
 {
-    "name": "botble/api",
-    "description": "API package for Botble CMS",
+    "name": "baseball-recruiting/api",
+    "description": "API package for Recruit.Me",
     "type": "package",
     "license": "MIT",
     "keywords": [
-        "botble",
-        "botble cms",
-        "botble platform",
-        "botble api"
+        "Recruit.Me",
+        "Baseball Recruiting",
+        "recruit.me api"
     ],
-    "homepage": "https://botble.com",
+    "homepage": "https://recruit.me",
     "authors": [
         {
-            "name": "Botble Technologies",
-            "email": "contact@botble.com"
+            "name": "Recruit.Me",
+            "email": "petenystrom@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Botble\\Api\\": "src"
+            "RecruitMe\\Api\\": "src"
         }
     },
     "require": {
@@ -31,10 +30,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Botble\\Api\\Providers\\ApiServiceProvider"
+                "RecruitMe\\Api\\Providers\\ApiServiceProvider"
             ],
             "aliases": {
-                "ApiHelper": "Botble\\Api\\Facades\\ApiHelper"
+                "ApiHelper": "RecruitMe\\Api\\Facades\\ApiHelper"
             }
         }
     },

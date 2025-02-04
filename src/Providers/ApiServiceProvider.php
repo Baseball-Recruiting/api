@@ -1,16 +1,16 @@
 <?php
 
-namespace Botble\Api\Providers;
+namespace RecruitMe\Api\Providers;
 
-use Botble\Api\Facades\ApiHelper;
-use Botble\Api\Commands\GenerateDocumentationCommand;
-use Botble\Api\Http\Middleware\ForceJsonResponseMiddleware;
-use Botble\Api\Models\PersonalAccessToken;
-use Botble\Base\Facades\PanelSectionManager;
-use Botble\Base\PanelSections\PanelSectionItem;
-use Botble\Base\Supports\ServiceProvider;
-use Botble\Base\Traits\LoadAndPublishDataTrait;
-use Botble\Setting\PanelSections\SettingCommonPanelSection;
+use RecruitMe\Api\Facades\ApiHelper;
+use RecruitMe\Api\Commands\GenerateDocumentationCommand;
+use RecruitMe\Api\Http\Middleware\ForceJsonResponseMiddleware;
+use RecruitMe\Api\Models\PersonalAccessToken;
+use RecruitMe\Base\Facades\PanelSectionManager;
+use RecruitMe\Base\PanelSections\PanelSectionItem;
+use RecruitMe\Base\Supports\ServiceProvider;
+use RecruitMe\Base\Traits\LoadAndPublishDataTrait;
+use RecruitMe\Setting\PanelSections\SettingCommonPanelSection;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Events\RouteMatched;
 use Laravel\Sanctum\Sanctum;

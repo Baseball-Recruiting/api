@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Api\Http\Resources;
+namespace RecruitMe\Api\Http\Resources;
 
-use Botble\ACL\Models\User;
+use RecruitMe\ACL\Models\User;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

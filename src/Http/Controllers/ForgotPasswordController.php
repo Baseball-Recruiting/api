@@ -1,11 +1,11 @@
 <?php
 
-namespace Botble\Api\Http\Controllers;
+namespace RecruitMe\Api\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Botble\ACL\Traits\SendsPasswordResetEmails;
-use Botble\Api\Facades\ApiHelper;
-use Botble\Api\Http\Requests\ForgotPasswordRequest;
+use RecruitMe\ACL\Traits\SendsPasswordResetEmails;
+use RecruitMe\Api\Facades\ApiHelper;
+use RecruitMe\Api\Http\Requests\ForgotPasswordRequest;
 use Illuminate\Support\Facades\Password;
 
 class ForgotPasswordController extends Controller

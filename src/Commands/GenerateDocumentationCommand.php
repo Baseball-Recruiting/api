@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Api\Commands;
+namespace RecruitMe\Api\Commands;
 
-use Botble\Setting\Facades\Setting;
+use RecruitMe\Setting\Facades\Setting;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 

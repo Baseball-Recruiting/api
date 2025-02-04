@@ -1,12 +1,12 @@
 <?php
 
-namespace Botble\Api\Forms\Settings;
+namespace RecruitMe\Api\Forms\Settings;
 
-use Botble\Api\Facades\ApiHelper;
-use Botble\Api\Http\Requests\ApiSettingRequest;
-use Botble\Base\Forms\FieldOptions\OnOffFieldOption;
-use Botble\Base\Forms\Fields\OnOffCheckboxField;
-use Botble\Setting\Forms\SettingForm;
+use RecruitMe\Api\Facades\ApiHelper;
+use RecruitMe\Api\Http\Requests\ApiSettingRequest;
+use RecruitMe\Base\Forms\FieldOptions\OnOffFieldOption;
+use RecruitMe\Base\Forms\Fields\OnOffCheckboxField;
+use RecruitMe\Setting\Forms\SettingForm;
 
 class ApiSettingForm extends SettingForm
 {

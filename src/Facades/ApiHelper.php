@@ -1,13 +1,13 @@
 <?php
 
-namespace Botble\Api\Facades;
+namespace RecruitMe\Api\Facades;
 
-use Botble\Api\Supports\ApiHelper as ApiHelperSupport;
+use RecruitMe\Api\Supports\ApiHelper as ApiHelperSupport;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static string modelName()
- * @method static \Botble\Api\Supports\ApiHelper setModelName(string $modelName)
+ * @method static \RecruitMe\Api\Supports\ApiHelper setModelName(string $modelName)
  * @method static string|null guard()
  * @method static string|null passwordBroker()
  * @method static string|null getConfig(string $key, $default = null)
@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static string getTable()
  * @method static bool enabled()
  *
- * @see \Botble\Api\Supports\ApiHelper
+ * @see \RecruitMe\Api\Supports\ApiHelper
  */
 class ApiHelper extends Facade
 {

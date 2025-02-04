@@ -1,14 +1,14 @@
 <?php
 
-namespace Botble\Api\Http\Controllers;
+namespace RecruitMe\Api\Http\Controllers;
 
-use Botble\Api\Forms\SanctumTokenForm;
-use Botble\Api\Http\Requests\StoreSanctumTokenRequest;
-use Botble\Api\Models\PersonalAccessToken;
-use Botble\Api\Tables\SanctumTokenTable;
-use Botble\Base\Http\Actions\DeleteResourceAction;
-use Botble\Base\Http\Controllers\BaseController;
-use Botble\Base\Http\Responses\BaseHttpResponse;
+use RecruitMe\Api\Forms\SanctumTokenForm;
+use RecruitMe\Api\Http\Requests\StoreSanctumTokenRequest;
+use RecruitMe\Api\Models\PersonalAccessToken;
+use RecruitMe\Api\Tables\SanctumTokenTable;
+use RecruitMe\Base\Http\Actions\DeleteResourceAction;
+use RecruitMe\Base\Http\Controllers\BaseController;
+use RecruitMe\Base\Http\Responses\BaseHttpResponse;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 

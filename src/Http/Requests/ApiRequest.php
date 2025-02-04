@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Api\Http\Requests;
+namespace RecruitMe\Api\Http\Requests;
 
-use Botble\Base\Http\Responses\BaseHttpResponse;
+use RecruitMe\Base\Http\Responses\BaseHttpResponse;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Arr;

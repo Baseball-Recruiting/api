@@ -1,13 +1,13 @@
 <?php
 
-namespace Botble\Api\Http\Controllers;
+namespace RecruitMe\Api\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Botble\Api\Facades\ApiHelper;
-use Botble\Api\Http\Resources\UserResource;
-use Botble\Base\Facades\BaseHelper;
-use Botble\Base\Http\Responses\BaseHttpResponse;
-use Botble\Media\Facades\RvMedia;
+use RecruitMe\Api\Facades\ApiHelper;
+use RecruitMe\Api\Http\Resources\UserResource;
+use RecruitMe\Base\Facades\BaseHelper;
+use RecruitMe\Base\Http\Responses\BaseHttpResponse;
+use RecruitMe\Media\Facades\RvMedia;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
